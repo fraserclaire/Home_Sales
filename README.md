@@ -3,6 +3,12 @@ Module 22 Challenge
 
 **Goal:** Use SparkSQL to identify key metrics about home sales data. Spark used to create temporary views, patition the data, cache/uncache a temporary table, and verify uncached. These steps explore methods of data saving that allows for shorter processing times.
 
+## Time differences
+- Original: 1.11 seconds
+- From cache: 0.678 seconds
+- From parquet: 0.485 seconds
+Saving ~40% time by using cache, ~60% using parquet.
+
 **Requested measures:**
 - What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
 
@@ -69,9 +75,3 @@ Module 22 Challenge
 |1053472.79|
 +----------+
 ```
-
-## Time differences
-- Original: 1.11 seconds
-- From cache: 0.678 seconds
-- From parquet: 0.485 seconds
-Saving ~40% time by using cache, ~60% using parquet.
