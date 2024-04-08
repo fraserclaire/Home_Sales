@@ -1,5 +1,4 @@
-# Home_Sales
-Module 22 Challenge
+# Home Sales - Module 22 Challenge
 
 **Goal:** Use SparkSQL to identify key metrics about home sales data. Spark used to create temporary views, patition the data, cache/uncache a temporary table, and verify uncached. These steps explore methods of data saving that allows for shorter processing times.
 
